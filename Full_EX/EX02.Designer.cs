@@ -35,9 +35,11 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            KeyPreview = true;
             Name = "EX02";
-            Text = "EX02";
+            Text = "i";
             Load += EX02_Load;
+            KeyUp += EX02_KeyUp;
             ResumeLayout(false);
         }
 

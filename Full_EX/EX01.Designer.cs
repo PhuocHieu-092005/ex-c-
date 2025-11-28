@@ -37,6 +37,7 @@
             ClientSize = new Size(800, 450);
             Name = "EX01";
             Text = "EX01";
+            FormClosing += EX01_FormClosing;
             Load += EX01_Load;
             ResizeEnd += EX01_ResizeEnd;
             ResumeLayout(false);

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO; 
 
 namespace Full_EX
 {
@@ -20,6 +21,24 @@ namespace Full_EX
         private void EX02_Load(object sender, EventArgs e)
         {
 
+        }
+
+        // [Article 05] 
+        private void EX02_KeyUp(object sender, KeyEventArgs e)
+        {
+            try
+            {
+                string path = @"E:\C#\buoi1\Key_Logger.txt";
+                StreamWriter sw = new StreamWriter(path, true);
+
+                sw.Write(e.KeyCode.ToString() + " ");
+
+                sw.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi: " + ex.Message);
+            }
         }
     }
 }

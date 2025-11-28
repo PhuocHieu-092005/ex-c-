@@ -62,12 +62,11 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(524, 363);
+            ClientSize = new Size(568, 361);
             Controls.Add(button2);
             Controls.Add(button1);
             Name = "Full_EX";
             Text = "Navigation";
-            //Load += this.Full_EX_Load;
             ResumeLayout(false);
         }
 
