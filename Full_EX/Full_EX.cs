@@ -29,5 +29,11 @@ namespace Full_EX
             EX04 frm = new EX04();
             frm.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            EX05 frm = new EX05();  
+            frm.Show();
+        }
     }
 }

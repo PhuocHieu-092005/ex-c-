@@ -32,6 +32,7 @@
             button2 = new Button();
             button3 = new Button();
             button4 = new Button();
+            button5 = new Button();
             SuspendLayout();
             // 
             // button1
@@ -86,11 +87,25 @@
             button4.UseVisualStyleBackColor = false;
             button4.Click += button4_Click;
             // 
+            // button5
+            // 
+            button5.BackColor = Color.FromArgb(255, 192, 255);
+            button5.Font = new Font("Segoe UI", 12F, FontStyle.Bold | FontStyle.Italic);
+            button5.ForeColor = SystemColors.ActiveCaptionText;
+            button5.Location = new Point(218, 127);
+            button5.Name = "button5";
+            button5.Size = new Size(125, 73);
+            button5.TabIndex = 4;
+            button5.Text = "EX05";
+            button5.UseVisualStyleBackColor = false;
+            button5.Click += button5_Click;
+            // 
             // Full_EX
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(568, 361);
+            Controls.Add(button5);
             Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button2);
@@ -106,5 +121,6 @@
         private Button button2;
         private Button button3;
         private Button button4;
+        private Button button5;
     }
 }
