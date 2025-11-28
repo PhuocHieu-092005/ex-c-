@@ -67,7 +67,7 @@
             Controls.Add(button1);
             Name = "Full_EX";
             Text = "Navigation";
-            Load += this.Full_EX_Load;
+            //Load += this.Full_EX_Load;
             ResumeLayout(false);
         }
 
