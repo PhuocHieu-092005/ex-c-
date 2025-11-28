@@ -30,6 +30,7 @@
         {
             button1 = new Button();
             button2 = new Button();
+            button3 = new Button();
             SuspendLayout();
             // 
             // button1
@@ -37,7 +38,7 @@
             button1.BackColor = Color.FromArgb(255, 192, 255);
             button1.Font = new Font("Segoe UI", 12F, FontStyle.Bold | FontStyle.Italic);
             button1.ForeColor = SystemColors.ActiveCaptionText;
-            button1.Location = new Point(23, 25);
+            button1.Location = new Point(37, 25);
             button1.Name = "button1";
             button1.Size = new Size(125, 73);
             button1.TabIndex = 0;
@@ -50,7 +51,7 @@
             button2.BackColor = Color.FromArgb(255, 192, 255);
             button2.Font = new Font("Segoe UI", 12F, FontStyle.Bold | FontStyle.Italic);
             button2.ForeColor = SystemColors.ActiveCaptionText;
-            button2.Location = new Point(182, 25);
+            button2.Location = new Point(218, 25);
             button2.Name = "button2";
             button2.Size = new Size(125, 73);
             button2.TabIndex = 1;
@@ -58,11 +59,25 @@
             button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
+            // button3
+            // 
+            button3.BackColor = Color.FromArgb(255, 192, 255);
+            button3.Font = new Font("Segoe UI", 12F, FontStyle.Bold | FontStyle.Italic);
+            button3.ForeColor = SystemColors.ActiveCaptionText;
+            button3.Location = new Point(397, 25);
+            button3.Name = "button3";
+            button3.Size = new Size(125, 73);
+            button3.TabIndex = 2;
+            button3.Text = "EX03";
+            button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
+            // 
             // Full_EX
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(568, 361);
+            Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
             Name = "Full_EX";
@@ -74,5 +89,6 @@
 
         private Button button1;
         private Button button2;
+        private Button button3;
     }
 }
