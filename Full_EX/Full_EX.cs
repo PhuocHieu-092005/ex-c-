@@ -53,5 +53,11 @@ namespace Full_EX
             EX10 frm = new EX10();
             frm.Show();
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            EX11 frm = new EX11();
+            frm.Show();
+        }
     }
 }
