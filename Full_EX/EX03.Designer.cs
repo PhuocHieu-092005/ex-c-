@@ -148,6 +148,7 @@
             Controls.Add(label1);
             Name = "EX03";
             Text = "EX03";
+            Load += EX03_Load_1;
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
             ResumeLayout(false);
             PerformLayout();

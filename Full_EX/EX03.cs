@@ -59,5 +59,10 @@ namespace Full_EX
         {
 
         }
+
+        private void EX03_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
