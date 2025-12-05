@@ -62,7 +62,13 @@ namespace Full_EX
 
         private void button10_Click(object sender, EventArgs e)
         {
-            EX12 frm = new EX12();  
+            EX12 frm = new EX12();
+            frm.Show();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            EX13 frm = new EX13();
             frm.Show();
         }
     }
