@@ -109,6 +109,7 @@
             listBox1.Name = "listBox1";
             listBox1.Size = new Size(276, 144);
             listBox1.TabIndex = 7;
+            listBox1.SelectedIndexChanged += listBox1_SelectedIndexChanged;
             // 
             // button2
             // 

@@ -29,30 +29,35 @@ namespace Full_EX
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string ten = textBox1.Text;              
-            string so = numericUpDown1.Value.ToString(); 
-            string ngay = dateTimePicker1.Value.ToShortDateString(); 
+            string ten = textBox1.Text;
+            string so = numericUpDown1.Value.ToString();
+            string ngay = dateTimePicker1.Value.ToShortDateString();
 
             string trangThai = "";
             if (checkBox1.Checked) trangThai += "Đã tick CheckBox. ";
             if (radioButton1.Checked) trangThai += "Đã chọn RadioButton.";
 
-        
+
             string mucChon = "";
             if (listBox1.SelectedItem != null)
             {
                 mucChon = listBox1.SelectedItem.ToString();
             }
 
-       
+
             string thongBao = "Tên: " + ten + "\n"
                             + "Số lượng: " + so + "\n"
                             + "Ngày: " + ngay + "\n"
                             + "Trạng thái: " + trangThai + "\n"
                             + "Mục đã chọn: " + mucChon;
 
-         
+
             MessageBox.Show(thongBao, "Kết quả");
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

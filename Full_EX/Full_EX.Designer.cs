@@ -34,6 +34,8 @@
             button4 = new Button();
             button5 = new Button();
             button6 = new Button();
+            button7 = new Button();
+            button8 = new Button();
             SuspendLayout();
             // 
             // button1
@@ -114,11 +116,39 @@
             button6.UseVisualStyleBackColor = false;
             button6.Click += button6_Click;
             // 
+            // button7
+            // 
+            button7.BackColor = Color.FromArgb(255, 192, 255);
+            button7.Font = new Font("Segoe UI", 12F, FontStyle.Bold | FontStyle.Italic);
+            button7.ForeColor = SystemColors.ActiveCaptionText;
+            button7.Location = new Point(37, 237);
+            button7.Name = "button7";
+            button7.Size = new Size(125, 73);
+            button7.TabIndex = 6;
+            button7.Text = "EX09";
+            button7.UseVisualStyleBackColor = false;
+            button7.Click += button7_Click;
+            // 
+            // button8
+            // 
+            button8.BackColor = Color.FromArgb(255, 192, 255);
+            button8.Font = new Font("Segoe UI", 12F, FontStyle.Bold | FontStyle.Italic);
+            button8.ForeColor = SystemColors.ActiveCaptionText;
+            button8.Location = new Point(209, 237);
+            button8.Name = "button8";
+            button8.Size = new Size(125, 73);
+            button8.TabIndex = 7;
+            button8.Text = "EX10";
+            button8.UseVisualStyleBackColor = false;
+            button8.Click += button8_Click;
+            // 
             // Full_EX
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(568, 361);
+            ClientSize = new Size(569, 397);
+            Controls.Add(button8);
+            Controls.Add(button7);
             Controls.Add(button6);
             Controls.Add(button5);
             Controls.Add(button4);
@@ -138,5 +168,7 @@
         private Button button4;
         private Button button5;
         private Button button6;
+        private Button button7;
+        private Button button8;
     }
 }

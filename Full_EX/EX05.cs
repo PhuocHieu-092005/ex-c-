@@ -53,5 +53,10 @@ namespace Full_EX
         {
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

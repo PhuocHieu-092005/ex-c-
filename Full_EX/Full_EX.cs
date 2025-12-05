@@ -38,7 +38,19 @@ namespace Full_EX
 
         private void button6_Click(object sender, EventArgs e)
         {
-            EX08 frm = new EX08();  
+            EX08 frm = new EX08();
+            frm.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            EX09 frm = new EX09();
+            frm.Show();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            EX10 frm = new EX10();
             frm.Show();
         }
     }
